@@ -1,0 +1,188 @@
+.btn1{
+    margin-top: 23rem;
+    border-radius: 0px;
+    background: rgb(250,164,45);
+    background: linear-gradient(90deg, rgba(250,164,45,1) 0%, rgba(255,149,0,1) 30%, rgba(255,142,0,1) 39%, rgba(255,136,0,1) 46%, rgba(255,129,0,1) 55%, rgba(255,124,0,1) 58%, rgba(255,121,0,1) 62%, rgba(254,115,0,1) 70%, rgba(253,109,0,1) 78%, rgba(252,103,0,1) 86%, rgba(251,92,0,1) 100%);
+    font-family: "Hemi";
+    color: #eeeeee;
+    font-size: 16px;
+    border-radius: 10rem;
+
+    opacity: 1;
+    text-transform: uppercase;
+    position: relative;
+}
+  
+  .modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition:      -o-transform .3s ease-out;
+       transition:         transform .3s ease-out;
+
+  }
+.modal-header {
+    border-bottom: 0 none;
+    width: 120%;
+    background-color: #eeeeee;
+
+}
+
+.titulomodal{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.textomodal{
+    margin-left: 40px;
+}
+
+.modal-body{
+    width: 120%;
+    background-color: #eeeeee;
+    height: 180px;
+}
+
+.modal-footer {
+    border-top: 0 none;
+    width: 120%;
+    background-color: #eeeeee;
+    height: 100px;
+    
+}
+
+
+p{
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: -75px;
+    margin-left: 40px;
+}
+
+.md{
+margin-top: 15rem;
+}
+
+.linkedin{
+    width: 40%;
+    position: relative;
+    top: -7px;
+    right: 50px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.linkedin:hover{
+    opacity: .5;
+}
+.git{
+    width: 40%;
+    position: relative;
+    top: -7px;
+    right: 175px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.git:hover{
+    opacity: .5;
+}
+
+.facebook{
+    width: 40%;
+    position: relative;
+    top: -92px;
+    left: 200px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.facebook:hover{
+    opacity: .5;
+}
+
+.instagram{
+    width: 40%;
+    position: relative;
+    top: -90px;
+    left: 80px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.instagram:hover{
+    opacity: .5;
+}
+
+.about{
+    cursor: pointer;
+}
+
+.buttonclose{
+    border: none;
+background: none;
+}
+
+.outer {
+    position: relative;
+ 
+    width: 35px;
+    top: -125px;
+    left: 530px;
+    cursor: pointer;
+  }
+  
+  .inner {
+    width: inherit;
+    text-align: center;
+  }
+  
+  label { 
+    font-size: 13px; 
+   position: relative;
+   font-family: "Montserrat";
+   right: 10px;
+    text-transform: uppercase;
+    color: #24232e;
+    transition: all .3s ease-in;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .inner:before, .inner:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: inherit;
+    background: #000000;
+    left: 0;
+    transition: all .3s ease-in;
+  }
+  
+  .inner:before {
+    top: 50%; 
+    transform: rotate(45deg);  
+  }
+  
+  .inner:after {  
+    bottom: 50%;
+    transform: rotate(-45deg);  
+  }
+  
+  .outer:hover label {
+    opacity: 1;
+  }
+  
+  .outer:hover .inner:before,
+  .outer:hover .inner:after {
+    transform: rotate(0);
+  }
+  
+  .outer:hover .inner:before {
+    top: 0;
+  }
+  
+  .outer:hover .inner:after {
+    bottom: 0;
+  }
+
+  @keyframes cssAnimation {
+    to   { visibility: visible; }
+  }

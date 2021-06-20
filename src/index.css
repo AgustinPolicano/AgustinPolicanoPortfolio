@@ -5,9 +5,57 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  
+}
+.f14{
+  font-size: 14px;
+}
+.f16{
+  font-size: 16px;
+}
+.f18{
+  font-size: 18px;
+}
+
+
+
+
+@font-face {
+  font-family: 'Forturn';
+  src:local("Forturn"), url(./assets/fonts/Forturn.otf) format("truetype");
+}
+@font-face {
+  font-family: 'Coolvetica';
+  src:local("Coolvetica"), url(./assets/fonts/coolvetica.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Moontserrat';
+  src:local("Moontserrat"), url(./assets/fonts/montserrat.regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Calm';
+  src:local("Calm"), url(./assets/fonts/keep-calm.regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Neon';
+  src:local("Neon"), url(./assets/fonts/neon-club-music.medium.otf) format("truetype");
+}
+@font-face {
+  font-family: 'Alba';
+  src:local("Alba"), url(./assets/fonts/alba.regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Roboto';
+  src:local("Roboto"), url(./assets/fonts/roboto.light.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Hemi';
+  src:local("Hemi"), url(./assets/fonts/hemi-head-426.bold-italic.ttf) format("truetype");
 }

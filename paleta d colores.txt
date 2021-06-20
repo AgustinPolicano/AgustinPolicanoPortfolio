@@ -1,0 +1,13 @@
+gris: #24232e
+blanco: #eeeeee
+naranja: #faa42d
+button:
+background: rgb(250,164,45);
+background: linear-gradient(90deg, rgba(250,164,45,1) 0%, rgba(255,149,0,1) 30%, rgba(255,142,0,1) 39%, rgba(255,136,0,1) 46%, rgba(255,129,0,1) 55%, rgba(255,124,0,1) 58%, rgba(255,121,0,1) 62%, rgba(254,115,0,1) 70%, rgba(253,109,0,1) 78%, rgba(252,103,0,1) 86%, rgba(251,92,0,1) 100%);
+
+
+fonts:
+Calm
+Forturn
+Hemi
+Roboto
